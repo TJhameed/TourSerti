@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
-    background-color: gray !important;
+    margin: 0;
 }
 body,
 p,
@@ -306,4 +306,30 @@ nav {
 }
 .social{
     text-align: center;
+}
+.accomodation{
+    padding: 30px;
+}
+.accomodation .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.accomodation .box-container .box{
+    flex: 1 1 25rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+}
+.accomodation .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.accomodation .box-container .box .content{
+    padding: 2rem;
+}
+.accomodation .box-container .box .content h1{
+    font-size: 2rem;
+    color: #055D2D;
 }
